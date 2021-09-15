@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/s.svg" type="image/x-icon">
+  <title>Splitter</title>
+</head>
+<body>
+  <h2>SPLI<br>TTER</h2>
+  <div class="container">
+    <div class="left-section">
+        <div class="top">
+          <label>Bill</label>
+          <div class="input">
+            <img src="images/icon-dollar.svg" alt="">
+            <input type="text" >
+          </div>
+        </div>
+        
+        <div class="middle">
+          <label>Section Tips %</label>
+          <div class="tips">
+              <button>5%</button>
+              <button>10%</button>
+              <button>15%</button>
+              <button>25%</button>
+              <button>50%</button> 
+              <input type="text" placeholder="Custom"> 
+          </div>
+        </div>
+        <div class="bottom">
+          <label>Number of People</label>
+          <div class="input-people">
+              <img src="images/icon-person.svg" alt="">
+              <input type="text" pattern="[0-9],{9}">
+            </div>
+        </div>       
+    </div>
+    <div class="right-section">
+      <div class="amount">
+        <div class="text-amount">
+          <h4>Tip Amount</h4>
+          <p>/person</p>
+        </div>
+        <span>$0.00</span>
+      </div>
+      <div class="total">
+        <div class="text-total">
+          <h4>Total</h4>
+          <p>/person</p>
+        </div>
+        <span>$0.00</span>
+      </div>
+      <button class="reset">RESET</button>
+
+    </div>
+  </div>
+
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
